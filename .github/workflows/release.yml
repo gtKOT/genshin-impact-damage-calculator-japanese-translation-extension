@@ -17,4 +17,5 @@ jobs:
         with:
           artifacts: '*.zip'
           artifactContentType: 'application/zip'
+          omitBody: true
           token: ${{ secrets.GITHUB_TOKEN }}
