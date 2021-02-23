@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          cd src
+          zip -r ../genshin-impact-damage-calculator-japanese-translation-extension.zip *
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: '*.zip'
+          omitBody: true
+          token: ${{ secrets.GITHUB_TOKEN }}
