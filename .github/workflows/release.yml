@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build
         run: |
-          zip genshin-impact-damage-calculator-japanese-translation-extension.zip src/*
+          zip -j genshin-impact-damage-calculator-japanese-translation-extension.zip src/*
       - uses: ncipollo/release-action@v1
         with:
           artifacts: '*.zip'
