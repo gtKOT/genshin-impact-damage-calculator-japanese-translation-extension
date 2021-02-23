@@ -1,0 +1,31 @@
+{
+  "name": "Genshin Impact Damage Calculator日本語化",
+  "version": "3.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://genshinimpactcalculator.com/"
+  ],
+  "action": {
+    "default_icon": "/images/icon.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "/rules.json"
+    }]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/ja.js"
+      ],
+      "matches": [
+        "https://genshinimpactcalculator.com/"
+      ]
+    }
+  ]
+}

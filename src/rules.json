@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/ja.js"
+      }
+    },
+    "condition": {
+      "domains": [
+        "genshinimpactcalculator.com"
+      ],
+      "urlFilter": "/data/translations/cn.js",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]
