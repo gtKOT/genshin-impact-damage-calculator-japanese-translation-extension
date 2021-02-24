@@ -6,13 +6,13 @@
 
 ### 新規インストール
 1. [Releases](https://github.com/gtKOT/genshin-impact-damage-calculator-japanese-translation-extension/releases) から最新バージョンのgenshin-impact-damage-calculator-japanese-translation-extension.zip をダウンロードして展開
-1. [拡張機能ページ](chrome://extensions/) のデベロッパーモードを有効にして、「パッケージ化されていない拡張機能を読み込む」から、zipを展開して作成されたディレクトリを読み込む
+1. 拡張機能ページ（chrome://extensions）のデベロッパーモードを有効にして、「パッケージ化されていない拡張機能を読み込む」から、zipを展開して作成されたディレクトリを読み込む
 1. 拡張機能に「Genshin Impact Damage Calculator日本語化」が追加されれば新規インストール完了
 
 ### 更新
 1. [Releases](https://github.com/gtKOT/genshin-impact-damage-calculator-japanese-translation-extension/releases) から最新バージョンのgenshin-impact-damage-calculator-japanese-translation-extension.zip をダウンロードして展開
 1. 新規インストール時に読み込んだディレクトリの中身を、zipを展開して作成されたディレクトリの中身に全て置き換え
-1. [拡張機能ページ](chrome://extensions/) から「Genshin Impact Damage Calculator日本語化」を更新
+1. 拡張機能ページ（chrome://extensions）から「Genshin Impact Damage Calculator日本語化」を更新
 1. 拡張機能のバージョンが最新バージョンになっていれば更新完了
 
 ## 使い方
