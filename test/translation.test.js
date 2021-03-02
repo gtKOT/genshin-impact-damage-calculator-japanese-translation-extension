@@ -6,8 +6,8 @@ const translationEntries = deepEntries(cntranslate, delimitEntry)
 
 test.each(
   translationEntries
-)('一部の全角記号・全角数字を含まないこと(%s)', (key, translation) => {
-  expect(translation).not.toMatch(/[：％＋－０-９ａ-ｚＡ-Ｚ]/);
+)('一部の全角記号・全角数字・タブを含まないこと(%s)', (key, translation) => {
+  expect(translation).not.toMatch(/[：％＋－０-９ａ-ｚＡ-Ｚ\t]/);
 });
 
 test.each(
