@@ -24,7 +24,7 @@
         "/ja.js"
       ],
       "matches": [
-        "https://genshinimpactcalculator.com/"
+        "https://genshinimpactcalculator.com/*"
       ]
     }
   ]
