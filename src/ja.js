@@ -3355,7 +3355,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
 
     "Amos Bow"            : "アモスの弓",
     "Skyward Harp"        : "天空の翼",
-    "Dreams of Dragonfell": null,
     "Elegy for the End"   : "終焉を嘆く詩",
 
     "Lost Prayer to the Sacred Winds": "四風原典",
@@ -3366,7 +3365,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Wolfs Gravestone": "狼の末路",
     "The Unforged"    : "無工の剣",
 
-    "Kunwus Iris Rift"            : null,
     "Primordial Jade Winged-Spear": "和璞鳶",
     "Skyward Spine"               : "天空の脊",
     "Vortex Vanquisher"           : "破天の槍",
@@ -3587,9 +3585,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Bane of Flame and Water2": {
       desc: "水元素または炎元素の影響を受けた敵に対するダメージ+20/24/28/32/36%。"
     },
-    // "Lithic Axiom - Subjugating Evil": {
-    //   desc: null
-    // },
     // 魔力親和（星鎌・試作）
     "Magic Affinity": {
       desc: "元素スキルを発動した後、通常攻撃と重撃のダメージ+8/10/12/14/16%、継続時間12秒、最大2重まで。"
@@ -3659,9 +3654,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
       desc: "攻撃力+20/25/30/35/40%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+40/50/60/70/80%、継続時間12秒。30秒に1回のみ発動可能。"
     },
 
-    // "Rainbow-Piercing Stinger": {
-    //   desc: null
-    // },
     // 正義を貫く鳶の槍（和璞鳶）
     "Eagle Spear of Justice": {
       desc: "敵に命中した時、自身の攻撃力+3.2/3.9/4.6/5.3/6%、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+12/15/18/21/24%。"
@@ -3729,8 +3721,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Archaic Petra"          : "悠久の磐岩",
     "Retracing Bolide"       : "逆飛びの流星",
 
-    "Glacier and Snowfield": "Glacier and Snowfield",
-    "Icebreaker"           : "Icebreaker",
     "Blizzard Strayer"     : "氷風を彷徨う勇士",
     "Heart of Depth"       : "沈淪の心",
 
@@ -3945,13 +3935,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
       ,
       {desc: "シールド状態の時、通常攻撃と重撃ダメージ+40%。"}
     ],
-    // ?
-    // "Glacier and Snowfield": [
-    //   ,
-    //   {desc: null},
-    //   ,
-    //   {desc: null}
-    // ],
     // 沈倫の心
     "Heart of Depth": [
       ,
@@ -3972,13 +3955,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
         ]
       }
     ],
-    // ?
-    // "Icebreaker": [
-    //   ,
-    //   {desc: null},
-    //   ,
-    //   {desc: null}
-    // ],
     // 千岩牢固
     "Tenacity of the Millelith": [
       ,
@@ -4480,7 +4456,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     ]
   },
 
-  // issue: detailed enemy type not listed (such as pyro/cyro slime)
   enemyData: {
     "Slime"                      : "スライム",
     "Hilichurl"                  : "ヒルチャール",
