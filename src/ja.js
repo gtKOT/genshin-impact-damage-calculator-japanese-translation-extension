@@ -3654,6 +3654,8 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Blizzard Strayer"     : "氷風を彷徨う勇士",
     "Heart of Depth"       : "沈淪の心",
 
+    "Tenacity of the Millelith": "千岩牢固",
+
     "Prayers for Wisdom"      : "雷祭りの人",
     "Prayers to Springtime"   : "氷祭りの人",
     "Prayers for Illumination": "火祭りの人",
@@ -3896,6 +3898,13 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     //   ,
     //   {desc: null}
     // ],
+    // 千岩牢固
+    "Tenacity of the Millelith": [
+      ,
+      {desc: "HP+20%。"},
+      ,
+      {desc: "元素スキルが敵に命中すると、周囲のチーム全員の攻撃力+20%、シールド強化+30%、持続時間3秒。この効果は0.5秒毎に1回のみ発動可能。この聖遺物セットを装備したキャラクターが待機している場合にも効果を発動できる。"}
+    ],
     // 雷祭りの人
     "Prayers for Wisdom": [
       {
