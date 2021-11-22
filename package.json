@@ -6,6 +6,6 @@
   "devDependencies": {
     "deep-entries": "4.0.2",
     "deep-object-diff": "1.1.0",
-    "jest": "27.1.1"
+    "jest": "27.3.1"
   }
 }
