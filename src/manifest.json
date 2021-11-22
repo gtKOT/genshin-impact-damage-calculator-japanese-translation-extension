@@ -1,6 +1,6 @@
 {
   "name": "Genshin Impact Damage Calculator日本語化",
-  "version": "3.2.2",
+  "version": "3.4.0",
   "manifest_version": 3,
   "permissions": [
     "declarativeNetRequest"
