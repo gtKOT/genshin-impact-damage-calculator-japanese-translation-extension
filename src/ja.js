@@ -3844,7 +3844,6 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Serpent Spine"         : "螭龍の剣",
     "The Bell"              : "鐘の剣",
     "Whiteblind"            : "白影の剣",
-    "Sword of Descension"   : "降臨の剣",
     "Katsuragikiri Nagamasa": "桂木斬長正",
 
     "Blackcliff Pole"      : "黒岩の突槍",
@@ -3858,6 +3857,7 @@ HP上限を基に、鍾離の下記攻撃のダメージが増加する。
     "Kitain Cross Spear"   : "喜多院十文字槍",
     "The Catch"            : "「漁獲」",
 
+    "Sword of Descension" : "降臨の剣",
     "Blackcliff Longsword": "黒岩の長剣",
     "Favonius Sword"      : "西風剣",
     "Iron Sting"          : "鉄蜂の刺し",
